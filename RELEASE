@@ -1,0 +1,24 @@
+IPFS hash of the deployment:
+- CIDv0: `QmQJQv4CsTmaz2YxvP2J6rckTN55Kpb8kgs3nuH75K4HWV`
+- CIDv1: `bafybeia5esoynn6udnsocgpwufk6one5vbkcvowseql5tfilf46asmveqy`
+
+The latest release is always mirrored at [app.uniswap.org](https://app.uniswap.org).
+
+You can also access the Uniswap Interface from an IPFS gateway.
+**BEWARE**: The Uniswap interface uses [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to remember your settings, such as which tokens you have imported.
+**You should always use an IPFS gateway that enforces origin separation**, or our hosted deployment of the latest release at [app.uniswap.org](https://app.uniswap.org).
+Your Uniswap settings are never remembered across different URLs.
+
+IPFS gateways:
+- https://bafybeia5esoynn6udnsocgpwufk6one5vbkcvowseql5tfilf46asmveqy.ipfs.dweb.link/
+- https://bafybeia5esoynn6udnsocgpwufk6one5vbkcvowseql5tfilf46asmveqy.ipfs.cf-ipfs.com/
+- [ipfs://QmQJQv4CsTmaz2YxvP2J6rckTN55Kpb8kgs3nuH75K4HWV/](ipfs://QmQJQv4CsTmaz2YxvP2J6rckTN55Kpb8kgs3nuH75K4HWV/)
+
+### 5.64.1 (2025-01-09)
+
+
+### Bug Fixes
+
+* **web:** limit orders do not work with uniswapx v2 (#14996) d520262
+
+
